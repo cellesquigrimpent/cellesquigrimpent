@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Bobby font: place your .woff2 in public/fonts/BobbyJones.woff2 and uncomment the @font-face block below */
+/*
+@font-face {
+  font-family: 'BobbyJones';
+  src: url('/fonts/BobbyJones.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+body {
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.hero-title {
+  font-family: 'BobbyJones', inherit;
+}
